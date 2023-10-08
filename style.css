@@ -112,7 +112,7 @@ hr{
     font-weight: 600;
 }
 
-.give-donation{
+.give-donation, .give-donation2{
     display: flex;
     padding: 200px;
     padding-top: 20px;

@@ -198,3 +198,75 @@ hr{
     color: white;
 
 }
+
+@media screen and (max-width:576px) {
+    .header-content h1{
+        font-size: 30px;
+    }
+    .header-content p{
+        font-size: 15px;
+        text-align: left;
+    }
+    .food-and-shelter{
+        flex-direction: column;
+        padding: 30px;
+    }
+    .item-container{
+        flex-direction: column;
+        padding: 110px;
+        padding-top: 20px;
+    }
+    .donation{
+        margin-left: 10px;
+    }
+    .give-donation{
+        flex-direction: column;
+        padding: 0;
+    }
+    .give-donation2{
+        flex-direction: column-reverse;
+        padding: 0;
+    }
+    .img-donation img {
+        width: 350px;
+        height: 350px;
+    }
+    .contact{
+        padding: 0;
+    }
+    .padding-bg{
+        padding: 30px;
+    }
+    .btn-donate2{
+        padding: 13px;
+        margin-right: 14px;
+        width: 45%;
+    }
+    .contact input{
+        padding: 14px;
+        width: 37%;
+    }
+    .footer{
+        margin-top: 30px;
+    }
+}
+@media screen and (min-width: 577px) and (max-width: 992px) {
+    .food-and-shelter{
+        padding: 40px;
+    }
+    .item-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .give-donation, .give-donation2{
+        padding: 20px;
+    }
+    .img-donation img{
+        margin-top: 80px;
+    }
+    .btn-donate2{
+        width: 30%;
+    }
+    .contact input{
+        width: 61%;
+    }
